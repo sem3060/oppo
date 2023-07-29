@@ -22,7 +22,8 @@ jobs:
       run: |
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
         sudo chmod a+rx /usr/local/bin/yt-dlp
-            j86しまなみ海道ライブカメラ／来島海峡大橋
+        
+         j86しまなみ海道ライブカメラ／来島海峡大橋
     - name: Get j86.m3u8
       run: |
          touch ./j86.m3u8
