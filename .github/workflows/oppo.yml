@@ -131,8 +131,140 @@ jobs:
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
          $(yt-dlp --print urls https://www.youtube.com/watch?v=Iv2VUE_UhRQ)
+         EOL   
+         
+         #j96信州・美ヶ原2034mのライブカメラ
+    - name: Get j96.m3u8
+      run: |
+         touch ./j96.m3u8
+         sudo cat >./j96.m3u8 <<EOL
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         $(yt-dlp --print urls https://www.youtube.com/watch?v=qNqChUFYiVc)
+         EOL   
+         
+         #j97三浦海岸 横須賀
+    - name: Get j97.m3u8
+      run: |
+         touch ./j97.m3u8
+         sudo cat >./j97.m3u8 <<EOL
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         $(yt-dlp --print urls https://www.youtube.com/watch?v=Jv5-71wmalA)
          EOL    
          
+         #j98草津温泉「湯畑」湯滝前
+    - name: Get j98.m3u8
+      run: |
+         touch ./j98.m3u8
+         sudo cat >./j98.m3u8 <<EOL
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         $(yt-dlp --print urls https://www.youtube.com/watch?v=GrEEoEmmrKs)
+         EOL    
+         
+         #j99久屋大通公園（名古屋市中区）
+    - name: Get j99.m3u8
+      run: |
+         touch ./j99.m3u8
+         sudo cat >./j99.m3u8 <<EOL
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         $(yt-dlp --print urls https://www.youtube.com/watch?v=ZBKX3TNOLb8)
+         EOL    
+         
+         #j100河津町ライブカメラ
+    - name: Get j100.m3u8
+      run: |
+         touch ./j100.m3u8
+         sudo cat >./j100.m3u8 <<EOL
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         $(yt-dlp --print urls https://www.youtube.com/watch?v=Xn7YQxxC5R0)
+         EOL   
+         
+         #j101長野インターチェンジLIVEカメラ
+    - name: Get j101.m3u8
+      run: |
+         touch ./j101.m3u8
+         sudo cat >./j101.m3u8 <<EOL
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         $(yt-dlp --print urls https://www.youtube.com/watch?v=vPCkonkRRY0)
+         EOL   
+         
+         #j102東京 夜景 港区 六本木
+    - name: Get j102.m3u8
+      run: |
+         touch ./j102.m3u8
+         sudo cat >./j102.m3u8 <<EOL
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         $(yt-dlp --print urls https://www.youtube.com/watch?v=Uf2iLWzBpUI)
+         EOL    
+         
+         #j103レインボーブリッジと東京タワー首都高速台場線
+    - name: Get j103.m3u8
+      run: |
+         touch ./j103.m3u8
+         sudo cat >./j103.m3u8 <<EOL
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         $(yt-dlp --print urls https://www.youtube.com/watch?v=un9Jfu1BQpY)
+         EOL    
+         
+         #j104松本城ライブカメラ#1「本丸庭園
+    - name: Get j104.m3u8
+      run: |
+         touch ./j104.m3u8
+         sudo cat >./j104.m3u8 <<EOL
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         $(yt-dlp --print urls https://www.youtube.com/watch?v=-NT8530xGdk)
+         EOL    
+         
+         #j105なら歴史芸術文化村
+    - name: Get j105.m3u8
+      run: |
+         touch ./j105.m3u8
+         sudo cat >./j105.m3u8 <<EOL
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         $(yt-dlp --print urls https://www.youtube.com/watch?v=e1nriipZ4z4)
+         EOL     
+
+         #j106阿蘇中岳・草千里
+    - name: Get j106.m3u8
+      run: |
+         touch ./j106.m3u8
+         sudo cat >./j105.m3u8 <<EOL
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         $(yt-dlp --print urls https://www.youtube.com/watch?v=haMy8ob7tVI)
+         EOL     
+
+         #j107ライブカメラ 白山室堂
+    - name: Get j107.m3u8
+      run: |
+         touch ./j107.m3u8
+         sudo cat >./j107.m3u8 <<EOL
+         #EXTM3U
+         #EXT-X-VERSION:3
+         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+         $(yt-dlp --print urls https://www.youtube.com/watch?v=yA2jhpk6GJ0)
+         EOL    
+              
     - name: git add
       run: |
          git add -A
