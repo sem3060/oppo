@@ -23,7 +23,7 @@ jobs:
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
         sudo chmod a+rx /usr/local/bin/yt-dlp
         
-         j86しまなみ海道ライブカメラ／来島海峡大橋
+        #j86しまなみ海道ライブカメラ／来島海峡大橋
     - name: Get j86.m3u8
       run: |
          touch ./j86.m3u8
@@ -34,7 +34,7 @@ jobs:
          $(yt-dlp --print urls https://www.youtube.com/watch?v=ubX3YSoF-ys)
          EOL   
          
-         j87海王丸ライブカメラ
+         #j87海王丸ライブカメラ
     - name: Get j87.m3u8
       run: |
          touch ./j87.m3u8
@@ -45,7 +45,7 @@ jobs:
          $(yt-dlp --print urls https://www.youtube.com/watch?v=-UsW0JsRZXM)
          EOL    
          
-         j88道路カメラ_縁結び大橋
+         #j88道路カメラ_縁結び大橋
     - name: Get j88.m3u8
       run: |
          touch ./j88.m3u8
@@ -56,7 +56,7 @@ jobs:
          $(yt-dlp --print urls https://www.youtube.com/watch?v=gCSr3Qm3BDM)
          EOL    
          
-         j89しまなみライブカメラ【EBC】
+         #j89しまなみライブカメラ【EBC】
     - name: Get j89.m3u8
       run: |
          touch ./j89.m3u8
@@ -67,7 +67,7 @@ jobs:
          $(yt-dlp --print urls https://www.youtube.com/watch?v=OV0JEv6C2QQ)
          EOL    
          
-         j90能登千里浜レストハウス（石川県）
+         #j90能登千里浜レストハウス（石川県）
     - name: Get j90.m3u8
       run: |
          touch ./j90.m3u8
@@ -78,7 +78,7 @@ jobs:
          $(yt-dlp --print urls https://www.youtube.com/watch?v=GcVWo1DOeGc)
          EOL   
          
-         j91【石川県羽咋市】千里浜ライブカメラ のライブ配信
+         #j91【石川県羽咋市】千里浜ライブカメラ のライブ配信
     - name: Get j91.m3u8
       run: |
          touch ./j91.m3u8
@@ -89,7 +89,7 @@ jobs:
          $(yt-dlp --print urls https://www.youtube.com/watch?v=kqkDQNe9EQI)
          EOL   
          
-         j92サンポート高松ライブカメラ
+         #j92サンポート高松ライブカメラ
     - name: Get j92.m3u8
       run: |
          touch ./j92.m3u8
@@ -100,7 +100,7 @@ jobs:
          $(yt-dlp --print urls https://www.youtube.com/watch?v=SQkm4hLoRb0)
          EOL    
          
-         j93姫路城ライブカメラ
+         #j93姫路城ライブカメラ
     - name: Get j93.m3u8
       run: |
          touch ./j93.m3u8
@@ -111,7 +111,7 @@ jobs:
          $(yt-dlp --print urls https://www.youtube.com/watch?v=ifEXHrCS8Oc)
          EOL    
          
-         j94神戸市垂水区-明石海峡大橋
+         #j94神戸市垂水区-明石海峡大橋
     - name: Get j94.m3u8
       run: |
          touch ./j94.m3u8
@@ -122,7 +122,7 @@ jobs:
          $(yt-dlp --print urls https://www.youtube.com/watch?v=piO8TdcF2qQ)
          EOL    
          
-         j95上高地河童橋ライブカメラ
+         #j95上高地河童橋ライブカメラ
     - name: Get j95.m3u8
       run: |
          touch ./j95.m3u8
