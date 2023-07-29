@@ -247,7 +247,7 @@ jobs:
     - name: Get j106.m3u8
       run: |
          touch ./j106.m3u8
-         sudo cat >./j105.m3u8 <<EOL
+         sudo cat >./j106.m3u8 <<EOL
          #EXTM3U
          #EXT-X-VERSION:3
          #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
